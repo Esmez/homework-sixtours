@@ -1,0 +1,90 @@
+.info {
+  height: 776px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+.info .info-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.info .info-container .title {
+  width: 235px;
+}
+.info .info-container .title h1 {
+  font-size: 60px;
+  font-family: Helvetica;
+  border-bottom: 2px solid black;
+}
+.info .info-container .text {
+  width: 980px;
+}
+.info .info-container .text p {
+  font-size: 16px;
+  font-family: "Lucida Sans Unicode";
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding: 10px;
+}
+.info .bookNow {
+  width: 133px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  border-radius: 15px;
+}
+.info .bookNow a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 8px 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .info .info-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 600px;
+  }
+  .info .title {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 300px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .info .text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    text-align: left;
+    font-size: 25px;
+  }
+}

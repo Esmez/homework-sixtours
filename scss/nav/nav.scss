@@ -1,0 +1,42 @@
+nav {
+    height: 90px;
+    max-width: 980px;
+    //position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    z-index: 11;
+
+    .logo {
+
+    }
+
+    .links {
+        height: 42px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        a {
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+            span {
+                color: #79addc;
+            } 
+        }
+    }
+}
+
+@media only screen and (max-width:600px) {
+    nav{
+        position: relative;
+        width: 100%;
+    }
+}
